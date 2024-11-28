@@ -1,0 +1,15 @@
+# Ignore node_modules (for frontend)
+frontend/node_modules/
+
+# Ignore vendor (for backend)
+backend/vendor/
+
+# Ignore .env files (for sensitive environment variables)
+frontend/.env
+backend/.env
+
+# Ignore build output (for frontend)
+frontend/dist/
+
+# Ignore Laravel storage and cache files
+backend/bootstrap/cache/
